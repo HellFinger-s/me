@@ -89,6 +89,7 @@ a{
   font-family: monospace;
   width: 50%;
   height:100%;
+  vertical-align: middle;
 }
 .myProjects{
   float:left;
@@ -100,7 +101,7 @@ a{
   font-family: monospace;
   width: 50%;
   height:100%;
-
+  vertical-align: middle;
 }
 .me{
   margin-top: 7%;
