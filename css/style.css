@@ -60,69 +60,150 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*конец дефолт настроек__________________________________________________________________*/
 
-
+/*@media only screen and (min-width: 480px) {
+ 
+ 
+}
+ 
+@media only screen and (min-width: 768px) {
+ 
+ 
+}
+ 
+@media only screen and (min-width: 992px) {
+ 
+ 
+}
+ 
+@media only screen and (min-width: 1382px){
+  header{
+    height: 15%;
+    background-color: #1F2b33;
+    box-shadow: 0px 0.5px 10px #c5c6c7;
+    position: relative;
+    /*min-width: 720px;
+    white-space: nowrap;
+    min-height:10%;
+    display: flex;
+    justify-content: space-around;
+  }
+  main{
+    background-color: #0b0c10;
+    height: 85%;
+  }
+  footer{
+    background-color: #1F2b33;
+    height: 5%;
+  }
+  a{
+    text-decoration: none;
+    color:#66fcf1;
+  }
+  .aboutMe{
+    color: #66fcf1;
+    padding-left: 20%;
+    padding-top: 1%;
+    font-size: 2.2em;
+    font-family: monospace;
+    width: 50%;
+    height:100%;
+  }
+  .myProjects{
+    color: #66fcf1;
+    padding-left:20%;
+    padding-top: 1%;
+    font-size: 2.2em;
+    font-family: monospace;
+    width: 50%;
+    height:100%;
+    vertical-align: center;
+  }
+  .me{
+    margin-top: 7%;
+    margin-left: 7%;
+    /*outline-style: double;
+    outline-color: #fff777;
+    outline-width:1px;
+    position:left;
+  }
+  .mainText{
+    display: inline-block;
+    color:#c5c6c7;
+    font-family:monospace;
+    font-size:20px;
+    margin-top:20%;
+    margin-left:10%;
+    text-align: right;
+    margin-left:auto;
+  }
+  .englishFlag{
+    margin-right:0.4%;
+    margin-top:0.1%;
+  }
+  .russiaFlag{
+    margin-right:0.3%;
+    margin-top:0.1%;
+  }
+}*/
 header{
-  height: 10%;
-  background-color: #1F2b33;
-  box-shadow: 0px 0.5px 10px #c5c6c7;
-  position: relative;
-}
-main{
-  background-color: #0b0c10;
-  height: 85%;
-}
-footer{
-  background-color: #1F2b33;
-  height: 5%;
-}
-a{
-  text-decoration: none;
-  color:#66fcf1;
-}
-.aboutMe{
-  float:left;
-  color: #66fcf1;
-  display:inline-block;
-  padding-left: 20%;
-  padding-top: 1%;
-  font-size: 35px;
-  font-family: monospace;
-  width: 50%;
-  height:100%;
-  vertical-align: middle;
-}
-.myProjects{
-  float:left;
-  color: #66fcf1;
-  display:inline-block;
-  padding-left:20%;
-  padding-top: 1%;
-  font-size: 35px;
-  font-family: monospace;
-  width: 50%;
-  height:100%;
-  vertical-align: middle;
-}
-.me{
-  margin-top: 7%;
-  margin-left: 7%;
-  /*outline-style: double;
-  outline-color: #fff777;
-  outline-width:1px;*/
-}
-.mainText{
-  display: inline-block;
-  color:#c5c6c7;
-  font-family:monospace;
-  font-size:20px;
-  margin-top:20%;
-  margin-left:10%;
-}
-.englishFlag{
-  margin-right:0.4%;
-  margin-top:0.1%;
-}
-.russiaFlag{
-  margin-right:0.3%;
-  margin-top:0.1%;
-}
+    height: 15%;
+    background-color: #1F2b33;
+    box-shadow: 0px 0.5px 10px #c5c6c7;
+    position: relative;
+    /*min-width: 720px;*/
+    min-height:10%;
+    display: flex;
+    justify-content: space-around;
+  }
+  main{
+    background-color: #0b0c10;
+    height: 85%;
+  }
+  footer{
+    background-color: #1F2b33;
+    height: 5%;
+  }
+  a{
+    text-decoration: none;
+    color:#66fcf1;
+  }
+  .aboutMe{
+    color: #66fcf1;
+    font-size: 2.2em;
+    font-family: monospace;
+    margin: auto;
+  }
+  .myProjects{
+    color: #66fcf1;
+    font-size: 2.2em;
+    font-family: monospace;
+    margin: auto;
+  }
+  .me{
+    margin-top: 7%;
+    margin-left: 7%;
+    /*outline-style: double;
+    outline-color: #fff777;
+    outline-width:1px;*/
+    position:left;
+  }
+  .mainText{
+    display: inline-block;
+    color:#c5c6c7;
+    font-family:monospace;
+    font-size:20px;
+    margin-top:20%;
+    margin-left:10%;
+    text-align: right;
+    margin-left:auto;
+  }
+  .englishFlag{
+    margin-right:0.4%;
+    margin-top:0.1%;
+  }
+  .russiaFlag{
+    margin-right:0.3%;
+    margin-top:0.1%;
+  }
+
+
