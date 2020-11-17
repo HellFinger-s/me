@@ -78,6 +78,8 @@ header{
   footer{
     background-color: #1F2b33;
     height: 5%;
+    display: flex;
+    justify-content:flex-end;
   }
   a{
     text-decoration: none;
@@ -114,12 +116,10 @@ header{
     margin-left:auto;
   }
   .englishFlag{
-    margin-right:0.4%;
-    margin-top:0.1%;
+    margin:auto;
   }
   .russiaFlag{
-    margin-right:0.3%;
-    margin-top:0.1%;
+    margin:auto;
   }
 
 
