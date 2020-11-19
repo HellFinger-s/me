@@ -28,6 +28,7 @@ html,body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color:#1F2b33;
 }
 input,button,textarea {
   font-family: inherit;
@@ -145,50 +146,43 @@ h1,h2,h3,h4,h5,h6 {
     margin-top:0.1%;
   }
 }*/
-header{
-  height: 15%;
-  background-color: #1F2b33;
-  box-shadow: 0px 0.5px 10px #c5c6c7;
-  position: relative;
-  min-height:10%;
-  display: flex;
-  justify-content: space-around;
+.mainTagEmulation{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+  background-color:#1F2b33;
 }
-main{
-  background-color: #0b0c10;
-  height: 85%;
-}
-footer{
+.localizationMenu{
   background-color: #1F2b33;
   height: 5%;
+  color:#c5c6c7;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+main{
+  background-color: #1F2b33;
 }
 a{
   text-decoration: none;
-  color:#66fcf1;
+  color:#84ceeb;
 }
 .aboutMe{
-  color: #66fcf1;
-  font-size: 3em;
   font-family: monospace;
   margin: auto;
   text-shadow: 
 }
 .myProjects{
-  color: #66fcf1;
-  font-size: 3em;
   font-family: monospace;
   margin: auto;
+  text-decoration:underline #84ceeb;
 }
 
-.englishFlag{
-  object-fit: cover;
-  flex: 1;
-  float: right;
-  overflow: hidden;
-  height: 100%;
-  margin-right:1em;
+.enLang{
+  text-decoration:underline #84ceeb;
 }
-.russiaFlag{
+.ruLang{
   object-fit: cover;
   flex: 1;
   float:right;
@@ -197,15 +191,14 @@ a{
 }
 .mainText{
   color:#c5c6c7;
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family:monospace;
-  padding-top:3em;
-  padding-left:3em;
+
   letter-spacing: 2px;
 }
 .mainHeader{
   color:#c5c6c7;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family:monospace;
   text-decoration:underline #fffaaf;
   text-align: left;
@@ -213,14 +206,293 @@ a{
   padding-top:3em;
   padding-left:2em;
 }
+.cursorBlink{
+  animation-name: blink;
+  animation-timing-function: linear;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 li{
   list-style-type: none;
 }
 li:before{
-  color: #fffaaf;
-  content: ">";
-  padding-right: 10px;
+  color: #6b6e70;
 }
+.newLineInListSelector{
+  color:#fbeec1;
+}
+.line1{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+  background-color:#1F2b33;
 
+}
+.line1:before{
+  color: #6b6e70;
+  content: "1";
+  padding-right: 0.8em;
 
-
+}
+.line2{
+  height: 15%;
+  background-color: #1F2b33;
+  /*box-shadow: 0px 0.5px 10px #c5c6c7;*/
+  position: relative;
+  min-height:10%;
+  display: flex;
+  justify-content: space-around;
+  font-size:2.5em;
+}
+.line2:before{
+  color: #6b6e70;
+  content: "2";
+  padding-right: 0.2em;
+}
+.line3{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+  background-color:#1F2b33;
+}
+.line3:before{
+  color: #6b6e70;
+  content: "3";
+  padding-right: 0.8em;
+}
+.line4{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+  background-color:#1F2b33;
+}
+.line4:before{
+  color: #6b6e70;
+  content: "4";
+  padding-right: 0.2em;
+}
+.line5{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+  background-color:#1F2b33;
+}
+.line5:before{
+  color: #6b6e70;
+  content: "5";
+  padding-right: 0.2em;
+}
+.line6{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+  background-color:#1F2b33;
+}
+.line6:before{
+  color: #6b6e70;
+  content: "6";
+  padding-right: 0.8em;
+}
+.line7:before{
+  content: "7";
+  padding-right:5.5em;
+}
+.line8:before{
+  color: #6b6e70;
+  content: "8";
+  padding-right: 0.2em;
+}
+.line9:before{
+  content: "9";
+  padding-right:5.5em;
+}
+.line10:before{
+  color: #6b6e70;
+  content: "10";
+  padding-right: 0.2em;
+}
+.line11:before{
+  content: "11";
+  padding-right:4.8em;
+}
+.line12:before{
+  color: #6b6e70;
+  content: "12";
+  padding-right: 0.2em;
+}
+.line13:before{
+  content: "13";
+  padding-right:4.8em;
+}
+.line14:before{
+  color: #6b6e70;
+  content: "14";
+  padding-right: 0.2em;
+}
+.line15:before{
+  color: #6b6e70;
+  content: "15";
+  padding-right: 4.8em;
+}
+.line16{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line16:before{
+  color: #6b6e70;
+  content: "16";
+  padding-right: 0.2em;
+}
+.line17{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line17:before{
+  color: #6b6e70;
+  content: "17";
+  padding-right: 0.2em;
+}
+.line18{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line18:before{
+  color: #6b6e70;
+  content: "18";
+  padding-right: 0.2em;
+}
+.line19{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line19:before{
+  color: #6b6e70;
+  content: "19";
+  padding-right: 0.2em;
+}
+.line20{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line20:before{
+  color: #6b6e70;
+  content: "20";
+  padding-right: 0.2em;
+}
+.line21{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line21:before{
+  color: #6b6e70;
+  content: "21";
+  padding-right: 0.2em;
+}
+.line22{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line22:before{
+  color: #6b6e70;
+  content: "22";
+  padding-right: 0.2em;
+}
+.line23{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line23:before{
+  color: #6b6e70;
+  content: "23";
+  padding-right: 0.2em;
+}
+.line24{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line24:before{
+  color: #6b6e70;
+  content: "24";
+  padding-right: 0.2em;
+}
+.line25{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line25:before{
+  color: #6b6e70;
+  content: "25";
+  padding-right: 0.2em;
+}
+.line26{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line26:before{
+  color: #6b6e70;
+  content: "26";
+  padding-right: 0.2em;
+}
+.line27{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line27:before{
+  color: #6b6e70;
+  content: "27";
+  padding-right: 0.2em;
+}
+.line28{
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line28:before{
+  color: #6b6e70;
+  content: "28";
+  padding-right: 4.8em;
+}
+.line29{
+  color:#ee4c7c;
+  font-size: 2.5em;
+  font-family:monospace;
+  letter-spacing: 2px;
+}
+.line29:before{
+  color: #6b6e70;
+  content: "29";
+  padding-right: 0.2em;
+}
