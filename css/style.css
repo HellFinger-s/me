@@ -78,6 +78,8 @@ h1,h2,h3,h4,h5,h6 {
 main{
   background-color: #1F2b33;
 }
+footer{
+  position:absolute;
 a{
   text-decoration: none;
   color:#84ceeb;
