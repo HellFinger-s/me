@@ -29,7 +29,7 @@ html,body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background-color:#1F2b33;
-  whitespace:pre;
+  white-space:pre;
   overflow:hidden;
 }
 input,button,textarea {
