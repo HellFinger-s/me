@@ -72,7 +72,7 @@ footer{
 }
 .mainTagEmulation{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
   background-color:#1F2b33;
@@ -81,7 +81,7 @@ footer{
   background-color: #1F2b33;
   height: 5%;
   color:#c5c6c7;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
@@ -116,20 +116,20 @@ a{
 }
 .mainText{
   color:#c5c6c7;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
 
   letter-spacing: 2px;
 }
 .mainHeader{
   color:#c5c6c7;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   text-decoration:underline #fffaaf;
   text-align: left;
   background-color:#0b0c10;
-  padding-top:36px;
-  padding-left:24px;
+  padding-top:3em;
+  padding-left:2em;
 }
 .cursorBlink{
   animation-name: blink;
@@ -153,7 +153,7 @@ li:before{
 }
 .line1{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
   background-color:#1F2b33;
@@ -162,7 +162,7 @@ li:before{
 .line1:before{
   color: #6b6e70;
   content: "1";
-  padding-right: 9.6px;
+  padding-right: 0.8em;
 
 }
 .line2{
@@ -173,16 +173,16 @@ li:before{
   min-height:10%;
   display: flex;
   justify-content: space-around;
-  font-size:30px;
+  font-size:2.5em;
 }
 .line2:before{
   color: #6b6e70;
   content: "2";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line3{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
   background-color:#1F2b33;
@@ -190,11 +190,11 @@ li:before{
 .line3:before{
   color: #6b6e70;
   content: "3";
-  padding-right: 9.6px;
+  padding-right: 0.8em;
 }
 .line4{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
   background-color:#1F2b33;
@@ -202,11 +202,11 @@ li:before{
 .line4:before{
   color: #6b6e70;
   content: "4";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line5{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
   background-color:#1F2b33;
@@ -214,11 +214,11 @@ li:before{
 .line5:before{
   color: #6b6e70;
   content: "5";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line6{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
   background-color:#1F2b33;
@@ -226,11 +226,11 @@ li:before{
 .line6:before{
   color: #6b6e70;
   content: "6";
-  padding-right: 9.6px;
+  padding-right: 0.8em;
 }
 .line7:before{
   content: "7";
-  padding-right:66px;
+  padding-right:5.5em;
 }
 .line7{
   white-space: pre;
@@ -238,11 +238,11 @@ li:before{
 .line8:before{
   color: #6b6e70;
   content: "8";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line9:before{
   content: "9";
-  padding-right:66px;
+  padding-right:5.5em;
 }
 .line9{
   white-space: pre;
@@ -250,11 +250,11 @@ li:before{
 .line10:before{
   color: #6b6e70;
   content: "10";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line11:before{
   content: "11";
-  padding-right:57.6px;
+  padding-right:4.8em;
 }
 .line11{
   white-space: pre;
@@ -262,11 +262,11 @@ li:before{
 .line12:before{
   color: #6b6e70;
   content: "12";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line13:before{
   content: "13";
-  padding-right:57.6px;
+  padding-right:4.8em;
 }
 .line13{
   white-space: pre;
@@ -274,27 +274,27 @@ li:before{
 .line14:before{
   color: #6b6e70;
   content: "14";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line15:before{
   color: #6b6e70;
   content: "15";
-  padding-right: 57.6px;
+  padding-right: 4.8em;
 }
 .line16{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line16:before{
   color: #6b6e70;
   content: "16";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line17{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
@@ -305,113 +305,113 @@ li:before{
 }
 .line18{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line18:before{
   color: #6b6e70;
   content: "18";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line19{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line19:before{
   color: #6b6e70;
   content: "19";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line20{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line20:before{
   color: #6b6e70;
   content: "20";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line21{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line21:before{
   color: #6b6e70;
   content: "21";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line22{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line22:before{
   color: #6b6e70;
   content: "22";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line23{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line23:before{
   color: #6b6e70;
   content: "23";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line24{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line24:before{
   color: #6b6e70;
   content: "24";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line25{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line25:before{
   color: #6b6e70;
   content: "25";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line26{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line26:before{
   color: #6b6e70;
   content: "26";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line27{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line27:before{
   color: #6b6e70;
   content: "27";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line28{
   font-family:monospace;
@@ -420,22 +420,22 @@ li:before{
 .line28:before{
   color: #6b6e70;
   content: "28";
-  padding-right: 57.6px;
+  padding-right: 4.8em;
 }
 .line29{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
 .line29:before{
   color: #6b6e70;
   content: "29";
-  padding-right: 0.24px;
+  padding-right: 0.2em;
 }
 .line29{
   color:#ee4c7c;
-  font-size: 30px;
+  font-size: 2.5em;
   font-family:monospace;
   letter-spacing: 2px;
 }
