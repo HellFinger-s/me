@@ -113,6 +113,10 @@ footer{
                  0 0 80px #327cc8,
                  0 0 120px #327cc8,
                  0 0 160px #327cc8;
+  animation-name: lamp;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 .myProjects{
   font-size: 3em;
@@ -125,11 +129,15 @@ footer{
   margin: auto;
   text-decoration:overline #327cc8;
   text-shadow: 0 0 10px #327cc8,
-                 0 0 20px #327cc8,
+               0 0 20px #327cc8,
                  0 0 40px #327cc8,
                  0 0 80px #327cc8,
                  0 0 120px #327cc8,
                  0 0 160px #327cc8;
+  animation-name: lamp;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 .englishFlag{
   object-fit: cover;
@@ -205,4 +213,31 @@ li:before{
     opacity: 0;
     
   }
+}
+@keyframes lamp{
+  5%{
+    opacity:0;
+  }
+  6%{
+    opacity: 1;
+  }
+  10%{
+    opacity: 0;
+  }
+  11%{
+    opacity: 1;
+  }
+  16%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0.25;
+  }
+  30%{
+    opacity: 0.5;
+  }
+  60%{
+    opacity: 1;
+  }
+
 }
