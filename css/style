@@ -1,0 +1,223 @@
+/*дефолт настройки, который убирают различия для разных браузеров, грубо говоря
+дефолт сайт выглядит одинаково везде*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active {
+  outline: none;
+}
+a:focus,a:active {
+  outline: none;
+}
+nav,footer,header,aside {
+  display: block;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*конец дефолт настроек__________________________________________________________________*/
+
+/*@media only screen and (min-width: 480px) {
+ 
+ 
+}
+ 
+@media only screen and (min-width: 768px) {
+ 
+ 
+}
+ 
+@media only screen and (min-width: 992px) {
+ 
+ 
+}
+ 
+@media only screen and (min-width: 1382px){
+  header{
+    height: 15%;
+    background-color: #1F2b33;
+    box-shadow: 0px 0.5px 10px #c5c6c7;
+    position: relative;
+    /*min-width: 720px;
+    white-space: nowrap;
+    min-height:10%;
+    display: flex;
+    justify-content: space-around;
+  }
+  main{
+    background-color: #0b0c10;
+    height: 85%;
+  }
+  footer{
+    background-color: #1F2b33;
+    height: 5%;
+  }
+  a{
+    text-decoration: none;
+    color:#66fcf1;
+  }
+  .aboutMe{
+    color: #66fcf1;
+    padding-left: 20%;
+    padding-top: 1%;
+    font-size: 2.2em;
+    font-family: monospace;
+    width: 50%;
+    height:100%;
+  }
+  .myProjects{
+    color: #66fcf1;
+    padding-left:20%;
+    padding-top: 1%;
+    font-size: 2.2em;
+    font-family: monospace;
+    width: 50%;
+    height:100%;
+    vertical-align: center;
+  }
+  .me{
+    margin-top: 7%;
+    margin-left: 7%;
+    /*outline-style: double;
+    outline-color: #fff777;
+    outline-width:1px;
+    position:left;
+  }
+  .mainText{
+    display: inline-block;
+    color:#c5c6c7;
+    font-family:monospace;
+    font-size:20px;
+    margin-top:20%;
+    margin-left:10%;
+    text-align: right;
+    margin-left:auto;
+  }
+  .englishFlag{
+    margin-right:0.4%;
+    margin-top:0.1%;
+  }
+  .russiaFlag{
+    margin-right:0.3%;
+    margin-top:0.1%;
+  }
+}*/
+header{
+  height: 15%;
+  background-color: #1F2b33;
+  box-shadow: 0px 0.5px 10px #c5c6c7;
+  position: relative;
+  min-height:10%;
+  display: flex;
+  justify-content: space-around;
+}
+main{
+  background-color: #0b0c10;
+  height: 85%;
+}
+footer{
+  background-color: #1F2b33;
+  height: 5%;
+}
+a{
+  text-decoration: none;
+  color:#66fcf1;
+}
+.aboutMe{
+  color: #66fcf1;
+  font-size: 3em;
+  font-family: monospace;
+  margin: auto;
+  text-shadow: 
+}
+.myProjects{
+  color: #66fcf1;
+  font-size: 3em;
+  font-family: monospace;
+  margin: auto;
+}
+
+.englishFlag{
+  object-fit: cover;
+  flex: 1;
+  float: right;
+  overflow: hidden;
+  height: 100%;
+  margin-right:1em;
+}
+.russiaFlag{
+  object-fit: cover;
+  flex: 1;
+  float:right;
+  overflow: hidden;
+  height: 100%;
+}
+.mainText{
+  color:#c5c6c7;
+  font-size: 1.5em;
+  font-family:monospace;
+  padding-top:3em;
+  padding-left:3em;
+  letter-spacing: 2px;
+}
+.mainHeader{
+  color:#c5c6c7;
+  font-size: 2em;
+  font-family:monospace;
+  text-decoration:underline #fffaaf;
+  text-align: left;
+  background-color:#0b0c10;
+  padding-top:3em;
+  padding-left:2em;
+}
+li{
+  list-style-type: none;
+}
+li:before{
+  color: #fffaaf;
+  content: ">";
+  padding-right: 10px;
+}
