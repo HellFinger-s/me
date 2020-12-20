@@ -94,6 +94,9 @@ footer{
   text-decoration: none;
   color: #84ceeb;
 }
+.mainText a{
+  text-decoration: none;
+}
 .aboutMe{
   font-size: 3em;
   font-family: monospace;
@@ -103,7 +106,13 @@ footer{
   font-size: 3em;
   font-family: monospace;
   margin: auto;
-  text-decoration:overline #84ceeb;
+  text-decoration:overline #327cc8;
+  text-shadow: 0 0 10px #327cc8,
+                 0 0 20px #327cc8,
+                 0 0 40px #327cc8,
+                 0 0 80px #327cc8,
+                 0 0 120px #327cc8,
+                 0 0 160px #327cc8;
 }
 .myProjects{
   font-size: 3em;
@@ -114,7 +123,13 @@ footer{
   font-size: 3em;
   font-family: monospace;
   margin: auto;
-  text-decoration:overline #84ceeb;
+  text-decoration:overline #327cc8;
+  text-shadow: 0 0 10px #327cc8,
+                 0 0 20px #327cc8,
+                 0 0 40px #327cc8,
+                 0 0 80px #327cc8,
+                 0 0 120px #327cc8,
+                 0 0 160px #327cc8;
 }
 .englishFlag{
   object-fit: cover;
@@ -151,6 +166,12 @@ footer{
 .mainHeader:before{
   color: #fffaaf;
   content: "_";
+  text-shadow: 0 0 10px #cdbf5c,
+               0 0 20px #cdbf5c,
+               0 0 40px #cdbf5c,
+               0 0 80px #cdbf5c,
+               0 0 120px #cdbf5c,
+               0 0 160px #cdbf5c;
 }
 li{
   list-style-type: none;
@@ -159,15 +180,29 @@ li:before{
   color: #fffaaf;
   content: ">";
   padding-right: 10px;
+  text-shadow: 0 0 10px #cdbf5c,
+               0 0 20px #cdbf5c,
+               0 0 40px #cdbf5c,
+               0 0 80px #cdbf5c,
+               0 0 120px #cdbf5c,
+               0 0 160px #cdbf5c;
 }
 .newLine {
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 40px #fff,
+               0 0 80px #fff,
+               0 0 120px #fff,
+               0 0 160px #fff;
   animation-name: blink;
   animation-timing-function: linear;
   animation-duration: 1.4s;
   animation-iteration-count: infinite;
 }
 @keyframes blink {
+
   50% {
     opacity: 0;
+    
   }
 }
