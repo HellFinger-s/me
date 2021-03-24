@@ -20,6 +20,10 @@ nav,footer,header,aside {
   display: block;
 }
 html,body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -63,20 +67,32 @@ h1,h2,h3,h4,h5,h6 {
 
 header{
   height: 15%;
-  background-color: #272727;
-  box-shadow: 0px 0.5px 10px #c5c6c7;
+  background-color: #292929;
+  /*box-shadow: 0px 0.5px 10px #c5c6c7;*/
   position: relative;
   min-height:10%;
   display: flex;
   justify-content: space-around;
 }
 main{
+  flex-grow: 1;
   background-color: #0b0c10;
-  height: 85%;
+  line-height: 1.2;
 }
 footer{
-  background-color: #272727;
-  height: 5%;
+  background-color: #292929;
+  height: 7%;
+  flex-shrink: 0;
+}
+.gitLink a{
+  color:#c5c6c7;
+  text-decoration:overline #6B737B;
+  text-shadow: 0 0 10px #6B737B,
+               0 0 20px #6B737B,
+               0 0 40px #6B737B,
+               0 0 80px #6B737B,
+               0 0 120px #6B737B,
+               0 0 160px #6B737B;
 }
 .myProjects a{
   text-decoration: none;
@@ -94,9 +110,6 @@ footer{
   text-decoration: none;
   color: #84ceeb;
 }
-.mainText a{
-  text-decoration: none;
-}
 .aboutMe{
   font-size: 3em;
   font-family: monospace;
@@ -108,15 +121,19 @@ footer{
   margin: auto;
   text-decoration:overline #327cc8;
   text-shadow: 0 0 10px #327cc8,
-                 0 0 20px #327cc8,
-                 0 0 40px #327cc8,
-                 0 0 80px #327cc8,
-                 0 0 120px #327cc8,
-                 0 0 160px #327cc8;
-  animation-name: lamp;
+               0 0 20px #327cc8,
+               0 0 40px #327cc8,
+               0 0 80px #327cc8,
+               0 0 120px #327cc8,
+               0 0 160px #327cc8;
+  animation-name: lampStart;
   animation-timing-function: linear;
   animation-duration: 5s;
   animation-iteration-count: 1;
+  animation-name: lampLoop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .myProjects{
   font-size: 3em;
@@ -130,14 +147,15 @@ footer{
   text-decoration:overline #327cc8;
   text-shadow: 0 0 10px #327cc8,
                0 0 20px #327cc8,
-                 0 0 40px #327cc8,
-                 0 0 80px #327cc8,
-                 0 0 120px #327cc8,
-                 0 0 160px #327cc8;
-  animation-name: lamp;
+               0 0 40px #327cc8,
+               0 0 80px #327cc8,
+               0 0 120px #327cc8,
+               0 0 160px #327cc8;
+  animation-name: lampStart;
   animation-timing-function: linear;
   animation-duration: 5s;
   animation-iteration-count: 1;
+
 }
 .englishFlag{
   object-fit: cover;
@@ -162,6 +180,10 @@ footer{
   padding-left:3em;
   letter-spacing: 2px;
 }
+.mainText a{
+  text-decoration: none;
+  color: #c5c6c7;
+}
 
 .mainHeader{
   color:#c5c6c7;
@@ -171,29 +193,77 @@ footer{
   padding-top:2em;
   padding-left:2.7em;
 }
+.skills{
+  color:#c5c6c7;
+  font-size: 2.2em;
+  font-family:monospace;
+  padding-top:2em;
+  padding-left:3em;
+  letter-spacing: 2px;
+}
+.skills a{
+  color: #c5c6c7;
+}
+.skills a:hover{
+  text-decoration: underline;
+  text-decoration-color: #84ceeb;
+  text-shadow: 0 0 10px #84ceeb,
+               0 0 20px #84ceeb,
+               0 0 40px #84ceeb,
+               0 0 80px #84ceeb,
+               0 0 120px #84ceeb,
+               0 0 160px #84ceeb;
+}
 .mainHeader:before{
   color: #fffaaf;
-  content: "_";
-  text-shadow: 0 0 10px #cdbf5c,
-               0 0 20px #cdbf5c,
-               0 0 40px #cdbf5c,
-               0 0 80px #cdbf5c,
-               0 0 120px #cdbf5c,
-               0 0 160px #cdbf5c;
+  content: "~";
+  text-shadow: 0 0 10px #FFF273,
+               0 0 20px #FFF273,
+               0 0 40px #FFF273,
+               0 0 80px #FFF273,
+               0 0 120px #FFF273,
+               0 0 160px #FFF273;
+  animation-name: lampStart;
+  animation-timing-function: linear;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.yellowText{
+  color: #fffaaf;
+  text-shadow: 0 0 10px   #D4C135,
+               0 0 20px   #D4C135,
+               0 0 40px   #D4C135,
+               0 0 80px   #D4C135,
+               0 0 120px  #D4C135,
+               0 0 160px  #D4C135;
+  animation-name: lampStart;
+  animation-timing-function: linear;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
 }
 li{
   list-style-type: none;
+}
+.projects{
+  padding-left:4em;
+}
+.projects:before{
+  content: ">>";
 }
 li:before{
   color: #fffaaf;
   content: ">";
   padding-right: 10px;
-  text-shadow: 0 0 10px #cdbf5c,
-               0 0 20px #cdbf5c,
-               0 0 40px #cdbf5c,
-               0 0 80px #cdbf5c,
-               0 0 120px #cdbf5c,
-               0 0 160px #cdbf5c;
+  text-shadow: 0 0 10px #FFF273,
+               0 0 20px #FFF273,
+               0 0 40px #FFF273,
+               0 0 80px #FFF273,
+               0 0 120px #FFF273,
+               0 0 160px #FFF273;
+  animation-name: lampStart;
+  animation-timing-function: linear;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
 }
 .newLine {
   text-shadow: 0 0 10px #fff,
@@ -214,21 +284,9 @@ li:before{
     
   }
 }
-@keyframes lamp{
+@keyframes lampStart{
   5%{
     opacity:0;
-  }
-  6%{
-    opacity: 1;
-  }
-  10%{
-    opacity: 0;
-  }
-  11%{
-    opacity: 1;
-  }
-  16%{
-    opacity: 0;
   }
   20%{
     opacity: 0.25;
@@ -240,4 +298,18 @@ li:before{
     opacity: 1;
   }
 
+}
+@keyframes lampLoop{
+    0% {
+        opacity: 0.85;
+    }
+    50%{
+      opacity: 0.9;
+    }
+    80% {
+        opacity: 1;
+    }
+    100%{
+      opacity: 0.85;
+    }
 }
